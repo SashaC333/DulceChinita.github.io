@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: Montserrat;
+    color: var(--colorN);
+}
+body{
+    background-color: var(--colorB);
+}
+:root{
+    /* sustitulos de blanco y negro */
+    --colorB:#fafafa;
+    --colorN:#400059;
+    /* Colores pricipales */
+    --color1:#f6bb66;
+    --color2:#ffd9b8;
+    --color3:#f57b71;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(../fonts/Montserrat/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: PlaywriteHR;
+    src: url(../fonts/Playwrite/PlaywriteHRLijeva-VariableFont_wght.ttf);
+}

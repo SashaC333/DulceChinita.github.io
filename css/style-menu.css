@@ -1,0 +1,116 @@
+
+h1{
+    font-family: PlaywriteHR;
+    text-align: center;
+    font-size: 55px;
+}
+h3{
+    margin: 15px;
+    font-family: PlaywriteHR;
+}
+.contenedor1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+}
+.contenedor1 input[type="button"] {
+    width: 20%;
+    margin-top: 10px;
+    background-color: var(--color2);
+    font-weight: bold;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: 0px;
+  }
+#uno{
+    background-color:var(--color3);
+}
+.contenedor2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor3{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenedor4{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contenedor5{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.caja{
+    width: 70%;
+    height: auto;
+    background-color: var(--color2);
+    border-radius: 15px;
+    align-self: center;
+    margin: 15%;
+    box-shadow: -8px 8px var(--color3);
+}
+.caja img{
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.caja p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0;
+}
+.precio{
+    width: 40%;
+    height: auto;
+    background-color: var(--color3);
+    border-radius: 15px;
+    text-align: center;
+    padding: 3px;
+    position: relative;
+    left: 27%;
+    top: 25px;
+}
+
+/*-- hoja de estilo desde 720 hasta 1023--*/
+@media screen and (min-width: 720px){
+    .contenedor2{
+        justify-content: space-evenly;
+    }
+    .contenedor3{
+        
+        justify-content: space-evenly;
+
+    }
+    .contenedor4{
+        flex-wrap: nowrap;        
+        justify-content: space-evenly;
+
+    }
+    .contenedor5{
+        flex-wrap: nowrap;        
+        justify-content: space-evenly;
+
+    }
+    .caja{
+        width: 42%;
+        align-self: center;
+        margin: 3%;
+    }
+    input[type="button"] {
+        width: 10%;
+      }
+}
+@media screen and (min-width: 1024px){
+    .caja{
+        width: 25%;
+        align-self: center;
+        margin: 3%;
+    }
+}

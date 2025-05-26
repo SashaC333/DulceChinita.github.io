@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="css/style-menu.css">
+    <link rel="stylesheet" href="css/style-General.css">
+    <link rel="stylesheet" href="css/style-footer.css">
+    <link rel="stylesheet" href="css/style-nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="js/script-menu.js"></script>
+</head>
+
+<body>
+    <div class="grid-item1"> <!-- HEADER Y NAV -->
+        <script src="js/FuncionNav.js"></script>
+        <header>
+            <img src="img/logo.svg" alt="Logo_Dulce_Chinita" class="logo">
+
+            <nav class="topnav" id="mytopnav">
+                <a href="index.html">Inicio</a>
+                <a href="menu.html">Menú</a>
+                <a href="galeria.html">Galería</a> <!-- falta Rellenar con las paginas de las demas -->
+                <a href="contact.html">Contacto</a>
+                <a class="icon" onclick="funcionNav()">
+                    <i class="fa fa-bars" style="color:#400059;"></i>
+                </a>
+            </nav>
+        </header>
+    </div>
+    
+    <section>
+        <h1>Menú</h1>
+
+        <div class="contenedor1">
+
+            <input id="uno" type="button" value="Pasteles" onclick="Mostrar()">
+            <input id="2" type="button" value="Donas" onclick="Mostrar1()">
+            <input id="3" type="button" value="Cupcakes" onclick="Mostrar2()">
+            <input id="4" type="button" value="CakePops" onclick="Mostrar3()">
+        </div>
+
+        <div class="contenedor2">
+            <div class="caja">
+                <img src="imagenes/Multimedia.jpg" alt="imagen pastel">
+                
+                <p>
+                    Pastel de vainilla con relleno de chocoavellana
+                </p>
+                <div class="precio">
+                    <h3>$499.00</h3>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="imagenes/Multimedia (1).jpg" alt="imagen pastel">
+    
+                <p>
+                    Pastel marmoleado vainilla-chocolate
+                </p>
+                <div class="precio">
+                    <h3>$449.00</h3>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="imagenes/Multimedia (2).jpg" alt="imagen pastel">
+                
+                <p>
+                    Pastel sabor fresa, con relleno de mermelada de fresa y cobertura de fresa
+                </p>
+                <div class="precio">
+                    <h3>$499.00</h3>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="imagenes/pastel 4.jpg" alt="imagen pastel">
+                
+                <p>
+                    Pastel de dos pisos sabor red Velvet, con relleno de mermelada de fresa y cobertura de chocolate oscuro
+                </p>
+                <div class="precio">
+                    <h3>$649.00</h3>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="imagenes/pastel 5.jpg" alt="imagen pastel">
+                
+                <p>
+                    Pastel de zanahoria, con relleno y cobertura de queso crema, con figura de fondant
+                </p>
+                <div class="precio">
+                    <h3>$399.00</h3>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor3" style="display: none;">
+            <div class="caja">
+                <img src="imagenes/donas.jpg" alt="imagen donas">
+                
+                <p>
+                    Donitas personalizadas. con chispas de chocolate
+                </p>
+                <div class="precio">
+                    <h3>$299.00</h3>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="imagenes/donas (2).jpg" alt="imagen donas">
+               
+                <p>
+                    Donitas de vainilla, con cobertura de glaseado y letras de chocolate
+                </p>
+                <div class="precio">
+                    <h3>$119.00</h3>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="imagenes/donas (3).jpg" alt="imagen donas">
+                
+                <p>
+                    Donitas de vainilla, con cobertura de chocolate color rosa y chispas de colores
+                </p>
+                <div class="precio">
+                    <h3>$189.00</h3>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="imagenes/donas (4).jpg" alt="imagen donas">
+                
+                <p>
+                    Ramo de donitas sabor vainilla con estilo de vaquitas, con cobertura de chocolate blanco y chocolate color rosa
+                </p>
+                <div class="precio">
+                    <h3>$299.00</h3>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="imagenes/dona 5.jpg" alt="imagen donas">
+                
+                <p>
+                    Donitas de vainilla con glaseado de colores pastel y perlitas de dulce 
+                </p>
+                <div class="precio">
+                    <h3>$199.00</h3>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor4" style="display: none;">
+            <div class="caja">
+                <img src="imagenes/cupcake.jpg" alt="imagen cupcakes">
+                
+                <p>
+                    Cupcakes sabor bainilla con crema batida, galleta de vainilla y figura de fondant
+                </p>
+                <div class="precio">
+                    <h3>$149.00</h3>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="imagenes/cupcake (2).jpg" alt="imagen cupcakes">
+                
+                <p>
+                    Cupcakes de vainilla, con crema batida de mantequilla y figuras de fondant sabor coco
+                </p>
+                <div class="precio">
+                    <h3>$149.00</h3>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="imagenes/cupcakes 3.jpg" alt="imagen cupcakes">
+                
+                <p>
+                    cupcakes sabor vainilla, con betun de vainilla y chispas de colores
+                </p>
+                <div class="precio">
+                    <h3>$100.00</h3>
+                </div>
+            </div>
+        </div>
+        <div class="contenedor5" style="display: none;">
+            <div class="caja">
+                <img src="imagenes/cakepop.jpg" alt="imagen cakepops">
+                
+                <p>
+                    Cakepop de vainilla, con cobertura de chocolante blanco y chispas
+                </p>
+                <div class="precio">
+                    <h3>$15.00</h3>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="imagenes/cakepop (3).jpg" alt="imagen cakepops">
+                
+                <p>
+                    Cakepop de vainilla, con cobertura de chocolante color rosa y chispas en forma de corazon
+                </p>
+                <div class="precio">
+                    <h3>$17.00</h3>
+                </div>
+            </div>
+            <div class="caja">
+                <img src="imagenes/cakepop (4).jpg" alt="imagen cakepops">
+                
+                <p>
+                    Cakepop de vainilla, con cobertura de chocolate blanco y flores de fondant
+                </p>
+                <div class="precio">
+                    <h3>$19.00</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+     <footer class="footer-cotainer">
+        <div class="footer-logo">
+            <a href="index.html">
+                <img src="icons/DulceChinita-Logo.svg" alt="DulceChinita-Logo">
+            </a>
+        </div>
+        <div class="footer-nav">
+            <a href="menu.html">Menú</a>
+            <a href="contact.html">Contacto</a>
+            <a href="galeria.html">Galería</a>
+            <p>+52 618 237 1318 </p>
+        </div>
+        <div class="footer-icons">
+
+            <svg id="icnFacebook" xmlns="http://www.w3.org/2000/svg" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+            </svg>
+
+
+            <svg id="icnWhatsapp" xmlns="http://www.w3.org/2000/svg" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                <path
+                    d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+            </svg>
+
+        </div>
+    </footer>
+    <!-- SCRIPT PARA LOS BOTONES E ICONOS DE CONTACTO -->
+    <script src="js/script-contacto.js"></script>
+</body>
+
+</html>
